@@ -328,6 +328,14 @@ class Rainbow {
     public bright(inputString: string): string {
       return this.die.Bright + inputString + this.die.Reset;
     }
+    /**
+     * hell
+     */
+    public hell() {
+
+     console.log("hellos");
+      
+    }
   }
   
   export {Rainbow};
